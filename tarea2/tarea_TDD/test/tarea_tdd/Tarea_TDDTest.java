@@ -42,4 +42,10 @@ public class Tarea_TDDTest {
         int resultado= fibo.fibonacci(4);
         assertEquals(4,resultado);
     }
+    @Test
+    public void testMain4() {
+        int resultado= fibo.fibonacci(7);
+        assertEquals(20,resultado);
+        // 0 1 1 2 3 5 8 13 
+    }
 }
