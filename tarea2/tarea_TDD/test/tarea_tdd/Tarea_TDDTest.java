@@ -37,4 +37,9 @@ public class Tarea_TDDTest {
         assertEquals(2,resultado);
         
     }
+    @Test
+    public void testMain3() {
+        int resultado= fibo.fibonacci(4);
+        assertEquals(4,resultado);
+    }
 }
