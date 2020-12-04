@@ -18,6 +18,16 @@ public class Tarea_TDD {
         // TODO code application logic here
     }
     public int fibonacci(int num1){
-    return 4;
+        int f = 0;
+        int suma = 0;
+        int t1 = 1;
+        int t2;
+        for(int i = 1; i <= num1; i++){
+            t2 = f;
+            f = t1 + f;
+            t1 = t2;
+            suma = suma + t1;
+        }
+        return suma;
     }
 }

@@ -29,12 +29,12 @@ public class Tarea_TDDTest {
     @Test
     public void testMain() {
         int resultado= fibo.fibonacci(1);
-        assertEquals(1,resultado);
+        assertEquals(0,resultado);
     }
     @Test
     public void testMain2() {
         int resultado= fibo.fibonacci(3);
-        assertEquals(4,resultado);
+        assertEquals(2,resultado);
         
     }
 }
